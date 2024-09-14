@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    background: linear-gradient(to right,blue, red);
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    /* background-color: black; */
+}
+
+
+
+
+
+
+
+.container{
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 2rem 1rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 10px 15px rgba(144, 144, 144, 0.3);
+
+}
+
+input{
+    width: 350px;
+    padding: 1rem;
+    margin: 15px;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    text-align: right;
+    background-color: transparent;
+    /* box-shadow: 0px 10px 15px rgba(84, 84, 84, 0.1); */
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    border: none;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.symbol{
+    font-weight: 800;
+}
+
+.eql{
+    background-color: #fb7c14;
+}
+
+.eql:hover{
+    background-color: #c25700;
+}
+
+.operator{
+    color: #6dee0a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
